@@ -15,7 +15,7 @@ print( 5 / 3)
 print(5//3)
 
 # raise to the power
-print(2**5);
+print(2**5)
 
 # No large number error in python
 print(factorial(23))
@@ -26,7 +26,7 @@ print(factorial(23))
 # int
 int(3.5)
 int(-3.5)
-int("1234")
+print(int(float("1234.5")))
 # binary int
 print(0b11)
 
@@ -47,7 +47,7 @@ print(3.5)
 # Speed of light
 print(3e10)
 #Planks constant
-print(1.616e-35)
+print(1.616e-35 * 1e22)
 
 #None
 print(None)
@@ -96,7 +96,6 @@ while c:
     c -= 1
 
 while True:
-
     response = input()
     if int(response) % 7 == 0:
         break
